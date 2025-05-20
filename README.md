@@ -14,6 +14,9 @@ The pipeline is designed to:
 - Comprehensive Analytics: Loads structured data into Amazon Redshift for advanced analytics and business intelligence.
 
 ## Design
+
+![reddit etl diagram linkedin](https://github.com/user-attachments/assets/a6c8af64-351c-4bd5-bf7e-bcedf7af4752)
+
 1. Reddit API : Data source for extracting posts and comments.
 2. Apache Airflow & Celery:  Orchestration for the entire ETL pipeline.
 3. PostgreSQL:  Temporary staging and metadata management.
